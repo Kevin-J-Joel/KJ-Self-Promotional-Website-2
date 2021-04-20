@@ -1,0 +1,175 @@
+    @font-face {
+        font-family: Mohave;
+        src: url(../fonts/mohave/Mohave.otf);
+    }
+
+    html, body{
+        margin:0;
+        height:100%;
+        width:100%;
+        font-family:Calibri,sans-serif;
+    }
+    
+    #backdrop {
+        position:absolute;
+        z-index:0;
+        height:175px;
+        width:100%;
+        background-color:#e5e5e5;
+    }
+
+    #backdrop2 {
+        position:absolute;
+        z-index:-1;
+        background-color:#171717;
+        height:100%;
+        width:100%;
+    }
+
+    #wrapper {
+        position:relative;
+        width:1000px;
+        margin:auto;
+    }
+
+    #heading {
+        top: 25px;
+        width:100%;
+        padding-top:20px;
+    }
+
+    #kjLogo {
+        background-image:url(../img/logo-circle.png);
+        background-repeat:no-repeat;
+        background-position:center;
+        width:220px;
+        height:220px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    #heading h1 {
+        margin-top:20px;
+        text-align:center;
+    }
+
+    h1 {
+        text-align:center;
+        font-family: Mohave,Helvetica,sans-serif;
+        margin-top:10px;
+        font-size:33.4px;
+        color:#e5e5e5;
+    }
+
+    h2 {
+        text-align:center;
+        font-family: Helvetica,sans-serif;
+        color:#e5e5e5;
+        font-size:1.3em;
+    }
+
+    p {
+        text-align:center;
+    }
+
+    #construction {
+        
+    }
+    
+    #constructionIcon {
+        height:74px;
+        margin-top:10px;
+        background-image:url(../img/construct-additional-pylons.png);
+        background-repeat:no-repeat;
+        background-position:center;
+    }
+
+    #construction p {
+        font-size:1em;
+        color:#e5e5e5;
+        padding:0 150px;
+    }
+
+    #border {
+        display:block;
+        margin:auto;
+    }
+
+    #linkMenu {
+        margin:0 244px;
+        list-style:none;
+        display:block;
+    }
+
+    #linkMenu a {
+        float:left;
+        display:block;
+        background: url(../img/ext-links.png);
+        width:68px;
+        height:68px;
+        margin:20px 50px 20px 0;
+    }
+
+    #linkedin a {
+          background-position:0 0;
+    }
+
+    #behance a {
+          background-position: -70px 0;
+    }
+
+    #tumblr a {
+          background-position: -140px 0;
+    }
+
+    #wordpress a {
+          background-position: -210px 0;
+    }
+
+    #linkedin a:hover {
+          background-position:0 -70px;
+    }
+
+    #behance a:hover {
+          background-position:-70px -70px;
+    }
+
+    #tumblr a:hover {
+          background-position:-140px -70px;
+    }
+
+    #wordpress a:hover {
+          background-position:-210px -70px;
+    }
+
+     #contactMenu {
+        margin:0 362px;
+        list-style:none;
+        display:block;
+    }
+
+    #contactMenu a {
+        float:left;
+        display:block;
+        background: url(../img/ext-links.png);
+        width:68px;
+        height:67px;
+        margin:0 50px 20px 0;
+    }
+
+    #contactEmail a {
+          background-position:0 -160px;
+    }
+
+    #contactPhone a {
+          background-position:-70px -160px;
+    }
+
+    #contactEmail a:hover {
+          background-position:0 -230px;
+    }
+
+    #contactPhone a:hover {
+          background-position:-70px -230px;
+    }
+   
